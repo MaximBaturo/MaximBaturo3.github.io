@@ -1,0 +1,1273 @@
+body{
+	margin: 0;
+	box-sizing: border-box;
+	padding-bottom: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+/*CONTAINERS*/
+
+.container{
+	margin-right: 90px;
+	margin-left: 110px;
+
+	margin-top: 30px;
+}
+
+
+/*HEADER*/
+
+.header_bg{
+	background-image: url(https://i.pinimg.com/originals/54/2e/a0/542ea005097cf34569a09ca1493a52e0.png);
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 20px;
+}
+
+.contacts_my{
+	margin-left: 15px;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+
+
+	height: 150px;
+}
+
+.header_logo{
+	height: 85px;
+	width: 100px;
+
+	margin-right: 10px;
+}
+
+.header_short_item{
+	display: flex;
+	flex-direction: row;
+	width: 25%;
+}
+
+.header_logo_text{
+	display: flex;
+	flex-direction: column;
+}
+
+.header_logo_text_white{
+	margin-bottom: 3px;
+
+
+	color: white;
+	font-size: 16px;
+}
+
+.header_logo_text_black{
+	color: black;
+	font-size: 14px;
+}
+
+/*Long*/
+
+.header_long_item{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+
+	width: 75%;
+}
+
+.header_long_item_up{
+	display: flex;
+	flex-direction: row;
+
+	margin-left: 300px;
+}
+
+.up_btn{
+	margin-left: 3em;
+	text-transform: uppercase;
+
+	padding: 10px;
+	color: black;
+	background-color: orange;
+	border-radius: 5px;
+
+	border:1px solid black;
+}
+
+.up_number{
+	line-height: 38px;
+	color: white;
+	font-size: 30px;
+}
+
+.header_long_item_down_link{
+	color: white;
+	line-height: 53px;
+
+	margin-right: 40px;
+}
+
+.header_long_item_down_link:hover{
+	font-family: Comic Sans MS;
+	font-size: 14px;
+	transition:.2s linear;
+}
+
+.header_long_item_down{
+	margin-top: 30px;
+
+	display: flex;
+	flex-direction: row;
+
+
+}
+
+.header_long_item_down_div_link{
+
+	border-top: 2px solid black;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_long_item_down_div_link:hover{
+
+	text-align: center;
+
+	border-top: 2px solid white;
+	transition: border-top .2s linear;
+}
+
+.header_special_link_1{
+	margin-left: 30px;
+}
+
+.header_special_link_2{
+	margin-left: 30px;
+}
+
+.header_special_link_3{
+	margin-left: 30px;
+}
+
+.header_special_link_4{
+	margin-left: 30px;
+}
+
+/*BLOCK*/
+
+.header_link_block{
+	display: flex;
+	flex-direction: row;
+}
+
+.block_1{
+	display: flex;
+	flex-direction: row;
+
+	z-index: 0;
+}
+
+.header_link_block{
+	margin-top: 450px;
+	margin-left: 65px;
+
+	color: white;
+}
+
+.header_link_block_links_link{
+	margin-left: 20px;
+}
+
+/*==========*/
+
+.sloy_1{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+.sloy_1{
+	display: flex;
+	flex-direction: row;
+}
+
+.sloy_1_long_part{
+	width: 65%;
+	height: 500px;
+	border:1.5px solid black;
+
+	background-image: url(https://careerist.ru/news/wp-content/uploads/2010/02/kak-pozdravit-kolleg-s-23-fevralja-4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sloy_1_short_part{
+	width: 35%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+}
+
+.block_1_big_icon{
+	height: 93%;
+}
+
+.block_1_write{
+	display: flex;
+	flex-direction: row;
+	color: white;
+
+	margin-top: 80px;
+	margin-left: 45px;
+}
+
+.block_1_write_text{
+	margin-right: 20px;
+}
+
+.block_1_special_icons{
+	margin-right: 20px;
+}
+
+.block_1_big_icon{
+	padding: 20px;
+	background-color: white;
+	height: 250px;
+	width: 450px;
+
+	text-align: center;
+
+	border:1.3px solid black;
+
+
+	margin-top: 100px;
+	margin-left: -200px;
+}
+
+.big_icon_title{
+
+	text-align: left;
+	padding-left: 20px;
+	font-size: 36px;
+}
+
+.big_icon_text{
+	margin-top: 25px;
+	text-align: left;
+	padding-left: 20px;
+
+	font-size: 22px;
+}
+
+.big_icon_btn{
+
+	width: 260px;
+
+	color: white;
+	font-size: 20px;
+
+	padding: 20px;
+
+	margin-left: 20px;
+	margin-top: 30px;
+
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	border:1px solid black;
+}
+
+.small_icon{
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+
+	width: 350px;
+	height: auto;
+
+	background-color: white;
+	border:1px solid black;
+
+	opacity: .9;
+
+	margin-top: 300px;
+	margin-left: 150px;
+}
+
+.small_icon_title{
+	padding: 15px;
+	font-size: 19px;
+}
+
+.small_icon_text{
+	color: red;
+	text-decoration: underline;
+
+	font-size: 23px;
+	padding-bottom: 15px;
+}
+
+/*ADVANTEGES*/
+
+.advantages_title{
+	display: flex;
+	flex-direction: row;
+}
+
+.advantages_title_text{
+	font-size: 36px;
+
+	width: 30%;
+}
+
+.advantages_title_img{
+	margin-top: 19px;
+	height: 9px;
+	width: 100%;
+	background-color: orange;
+}
+
+.advantages_subtitle{
+	width: 50%;
+
+	margin-top: 35px;
+	margin-bottom: 50px;
+
+	font-size: 20px;
+}
+
+.advantages_subtitle_special{
+	color: purple;
+}
+
+.advanteges_col{
+	display: flex;
+	flex-direction: row;
+}
+
+.adv_first_column{
+	width: 33.333333333%;
+}
+
+.adv_first_column_1{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.adv_first_column_1_text_title{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.adv_first_column_1_text_text{
+	font-size: 16px;
+}
+
+.adv_first_column_1_text{
+	margin-left: 15px;
+}
+
+.adv_row_2_btn{
+	display: flex;
+	flex-direction: row;
+}
+
+.adv_symbol{
+	margin-right: 15px;
+
+	font-size: 70px;
+}
+
+.adv_row_2{
+	display: flex;
+	flex-direction: row;
+}
+
+.adv_row_2_btn{
+	width: 63%;
+	height: 45px;
+
+	padding: 24px;
+	padding-bottom: 46px;
+
+	text-align: center;	
+
+	color: white;
+
+	background-image: url(https://st2.depositphotos.com/1237630/10648/i/450/depositphotos_106484018-stock-photo-deep-rich-dark-orange-background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.adv_symbol_text{
+	font-size: 25px;
+	padding-top: 12px;
+}
+
+.advantages_bg{
+
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+	margin-bottom: 30px;
+
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+}
+
+/*PAY*/
+
+.pay_bg{
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+	
+
+	margin-top: -30px;
+
+	padding-top: 30px;
+}
+
+.pay_title_text{
+	font-size: 32px;
+	width: 10%;
+}
+
+.pay_flex{
+	display: flex;
+	flex-direction: row;
+
+	padding-bottom: 30px;
+	/*ТУТ*/
+	margin-bottom: 50px;
+}
+
+.pay_flex_element{
+	display: flex;
+	flex-direction: row;
+
+	width: 100%;
+
+	margin-top: 40px;
+}
+
+.pay_flex_special{
+	margin-right: 60px;
+}
+
+.pay_flex_element_img{
+	margin-right: 25px;
+}
+
+/**/
+
+.pay_ln{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	background-image: url(https://i.pinimg.com/originals/05/6b/eb/056beb34e9404672767e5faeb05617f9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	margin-bottom: 20px;
+
+	padding: 23px;
+
+	border:1px solid black;
+
+	font-size: 22px;
+
+	opacity: .8;
+}
+
+.pay_line_cost_n{
+	font-size: 25px;
+}
+
+.pay_line_up{
+	font-size: 28px;
+	color: white;
+
+	padding: 25px;
+
+	background-image: url(https://i.pinimg.com/originals/da/6b/5c/da6b5cb5ce75f767403ab404a9517018.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border:1px solid black;
+
+	margin-bottom: 40px;
+}
+
+/**/
+
+.pay_under{
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 30px;
+}
+
+.pay_under_block_1{
+	width: 70%;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.pay_under_block_2{
+	width: 30%;
+
+	width: 260px;
+	height: 20px;
+
+	color: white;
+	font-size: 20px;
+
+	padding: 15px;
+
+	margin-left: 20px;
+	margin-top: 30px;
+
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	border:1px solid black;
+}
+
+.under_block_1_text{
+	font-size: 18px;
+}
+
+.under_block_1_smb{
+	width: 160px;
+	height: 160px;
+
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+/*in_money*/
+
+.in_money_bg{
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+
+.in_money_title{
+	display: flex;
+	flex-direction: row;
+
+	font-size: 30px;
+
+	margin-bottom: 15px;
+}
+
+.in_money_titles{
+	margin-bottom: 40px;
+}
+
+.in_money_title_special{
+	width: 60%;
+
+	margin-left: 20px;
+}
+
+.in_money_main{
+	display: flex;
+	flex-direction: row;
+}
+
+.in_money_main_img{
+	width: 45%;
+	height: 500px;
+
+	background-image: url(https://i.imgur.com/cOm965j.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.in_money_main_downer{
+	width: 70%;
+	height: 500px;
+
+	overflow: auto;
+
+	direction:rtl;
+
+	margin-left: 80px;
+}
+
+
+
+.in_money_main_downer div{
+	direction:ltr;
+}
+
+.in_money_main_downer::-webkit-scrollbar{
+	width: 8px;
+	height: 100px;
+}
+
+.in_money_main_downer::-webkit-scrollbar-thumb{
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	border:1px solid black;
+}
+
+.in_money_main_downer::-webkit-scrollbar-track-piece{
+	background-color: #dbdbd9;
+}
+
+.main_downer_block{
+	padding: 50px;
+}
+
+.downer_block_title{
+	color: orange;
+	font-size: 20px;
+
+	margin-bottom: 15px;
+}
+
+/*EXAMPLES*/
+
+.examples_title{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	margin-bottom: 50px;
+}
+
+.examples_title_text{
+	font-size: 30px;
+
+	width: 30%;
+}
+
+.examples_row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.examples_row_block{
+	width: 50%;
+}
+
+.exm_active_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.exm_active_block_part{
+	width: 0;
+	height: 0;
+	border-top: 33px solid transparent;
+	border-left: 33px solid #CD0786;
+	border-bottom: 33px solid transparent;
+}
+
+.row_block_column{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.block_column_div{
+	width: 70%;
+	height: 65px;
+
+	line-height: 65px;
+
+	padding-left: 30px;
+
+	border:1px solid black;
+
+
+	margin-bottom: 5px;
+
+	background-color: #c7c1c5;
+
+	font-size: 20px;
+}
+
+.exm_active{
+
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	border-right: none;
+
+	color: white;
+}
+
+.examples_row_block_2{
+	width: 500px;
+	height: 500px;
+
+	background-color: #c7c1c5;
+}
+
+.examples_row_block_2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.row_block_up{
+	height: auto;
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	padding: 10px;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	color: white;
+}
+
+.block_up_title{
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+.block_up_subtitle{
+	font-size: 17px;
+}
+
+.row_block_down{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	text-align: center;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.block_down_img{
+	margin-right: 20px;
+	width: 50%;
+
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.examples{
+	margin-bottom: 100px;
+
+}
+
+.exm_bg{
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*FORM*/
+
+.form{
+
+
+	background-image: url(https://oboitut.com/uploads/posts/oboitut.com_5967.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+
+	padding: 20px;
+	padding-left: 5px;
+}
+
+.form_bg{
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+
+	padding: 20px;
+
+	height: auto;
+}
+
+.form_row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	margin-bottom: 50px;
+}
+
+.form_row_block{
+	width: 50%;
+}
+
+.form_titles{
+	margin-bottom: 35px;
+}
+
+.form_title{
+	font-size: 34px;
+
+	text-align: center;
+}
+
+.form_subtitle{
+	color: white;
+
+	font-size: 20px;
+
+	text-align: center;
+
+	margin-top: 15px;
+
+}
+
+.row_block_input{
+	margin-bottom: 25px;
+}
+
+.form_btn{
+	color: white;
+
+	padding: 20px;
+
+	text-align: center;
+
+	margin-left: 37%;
+
+	width: 250px;
+
+	border-radius:5px;
+
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.row_block_file{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.block_file_text{
+	line-height: 35px;
+	color: white;
+
+	margin-left: 10px;
+
+	text-decoration: underline;
+}
+
+.row_block_input{
+	opacity: .7;
+}
+
+.input_form{
+	height: 35px;
+	width: 80%;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid black;
+}
+
+.row_block_1{
+	padding-left: 50px;
+}
+
+.form_textarea{
+	width: 80%;
+
+	height: 180px;
+	opacity: .7;
+	border-radius: 5px;
+
+	font-size: 22px;
+
+	padding: 20px;
+
+	border:1px solid black;
+}
+
+/*ABOUT*/
+
+.adout_bg{
+	padding-bottom: 30px;
+	padding-top: 20px;
+	height: auto;
+
+	margin-bottom: 50px;
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+}
+
+.about_title{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	margin-top: 50px;
+}
+
+.about_title_text{
+	font-size: 32px;
+	width: 25%;
+}
+
+.about_up_row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	margin-top: 40px;
+}
+
+.up_row_block{
+	width: 50%;
+}
+
+.row_block_img{
+	width: 45%;
+	height: 400px;
+
+	background-image: url(https://komionline.ru/uploads/2014/12/news_49026_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.small_block_on{
+	padding: 20px;
+	background-color: white;
+	opacity: .7;
+
+	height: auto;
+	width: 200px;
+
+	margin-top: 260px;
+	margin-left: 200px;
+}
+
+.block_on_title{
+	font-size: 22px;
+
+	margin-bottom: 10px;
+}
+
+.block_on_text{
+	color: red;
+	text-decoration: underline;
+
+	font-size: 18px;
+}
+
+.row_block_text{
+	width: 50%;
+
+	padding-left: 50px;
+	padding-top: 30px;
+
+	font-size: 18px;
+}
+
+.text_text_special{
+	color: orange;
+}
+
+.block_text_text{
+	margin-bottom: 50px;
+}
+
+.blok_text_title{
+	font-size: 24px;
+
+	margin-bottom: 50px;
+}
+
+.without_special{
+	color: orange;
+}
+
+.under_about_title{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.about_without_text{
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.about_row_img{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.row_img_block{
+	width: 33.333333333333%;
+
+	padding: 20px;
+}
+
+.pdlo{
+	padding-left: 0;
+}
+
+.pdro{
+	padding-right: 0;
+}
+
+/*Contacts*/
+
+.contacts{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+}
+
+.contacts_bg_1{
+	background-image: url(https://html5book.ru/wp-content/uploads/2015/06/background28.jpg);
+	width: 60%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+
+	margin-top: -50px;
+	margin-bottom: -50px;
+}
+
+.contacts_bg_2{
+	background-image: url(http://shop.widgets.gophotoweb.com/vigbo-cms/storage/shops/743/editor/0899a9a2_176_Teen_Party.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	width: 40%;
+	height: 540px;
+}
+
+.contacts_titles{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+
+	margin-bottom: 50px;
+}
+
+.contacts_titles_text{
+	font-size: 30px;
+	width: 35%;
+}
+
+.contacts_column{
+	margin-left: 50px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+.contacts_column_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	line-height: 50px;
+	margin-bottom: 15px;
+}
+
+.column_block_text{
+	margin-left: 15px;
+}
+
+.contacts_write_us_img{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+}
+
+.contacts_write_us_text{
+	font-size: 18px;
+}
+
+.contacts_img{
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.write_us_contacts{
+	margin-bottom: 70px;
+}
+
+.map_my{
+
+	margin-top: 50px;
+	margin-left: -90px;
+
+	width: 450px;
+	height: 450px;
+
+	border:1px solid black;
+}
+
+.contacts_line_special{
+	width: 60%;
+}
+
+#map{
+	width: 100%;
+	height: 100%;
+}
+
+/**/
+
+
+
+
